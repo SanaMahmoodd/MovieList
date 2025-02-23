@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="MovieList.css">
+    <title>Movie List</title>
+</head>
+<body>
+
+<h1>Add a Movie to Watch List</h1>
+
+    <div class="card">
+        <div class="title"> Movie Title : <input type="text"></div>
+        <div class="movie"> Movie Language :
+            <select id="language">
+                <option value="English">English</option>
+                <option value="Arabic">العربية</option>
+            </select>
+        </div>
+        <div class="mo"> Movie Genre:
+            <select id="genre">
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Comedy">Comedy</option>
+                <option value="Animation">Animation</option>
+            </select>
+        </div>
+        <label>
+            <input type="checkbox" id="isWatched" >
+            <p>This movie is R-Rated(18+)</p>
+            </label>
+        <button type="button" onclick="addMovie()">Add movie</button>
+    </div>
+
+    <div>
+        <h1>The Watch List</h1>
+            <table id="movieTable">
+            <thead>
+                <tr>
+                <th>#</th>
+                <th>Movie Title</th>
+                <th>Movie Language</th>
+                <th>Movie Genre</th>
+                <th>Is it R-Rated?</th>
+                <th>Actions</th>
+                </tr>
+            </thead>
+        <tbody>
+            
+        </tbody>
+        </table>
+    </div>
+<script src="MovieList.js"></script>
+</body>
+</html>
