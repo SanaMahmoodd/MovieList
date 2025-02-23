@@ -24,7 +24,7 @@ A simple web application that allows users to add movies to a watch list, specif
 - JavaScript (Vanilla JS)
 
 ### 📌 How to Use
-1. Open `index.html` in a browser.
+1. Open `MovieList.html` in a browser.
 2. Enter a movie title, select a language and genre, and check the R-Rated option if applicable.
 3. Click **"Add Movie"** to add it to the watch list.
 4. Click **"Delete"** to remove a movie from the list.
